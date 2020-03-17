@@ -1,0 +1,21 @@
+CREATE DATABASE person_search;
+CREATE TABLE person_search.person(
+	id INT NOT NULL AUTO_INCREMENT,
+	name VARCHAR(255) NOT NUll,
+    birthday DATE NOT NUll,
+    PRIMARY KEY (id)
+    );
+
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Rokas', '2001-12-01');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Marija', '1999-05-03');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Lukas', '1989-01-17');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Sofija', '1999-02-11');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Jonas', '1988-05-23');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Amelija', '1997-03-11');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Nojus', '1995-04-16');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Dominykas', '2001-05-17');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Liepa', '2002-05-20');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Jokūbas', '2003-09-14');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Gabija', '2005-10-13');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Marija', '2010-08-18');
+INSERT INTO `person_search`.`person`(`name`, `birthday`) VALUES('Jonas', '2019-07-17');
